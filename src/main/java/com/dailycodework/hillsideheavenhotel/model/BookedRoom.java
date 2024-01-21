@@ -51,11 +51,6 @@ public class BookedRoom {
     private Room room;
 
 
-
-
-
-
-
     public void calculateTotalNumberOfGuests(){
         this.totalNumberOfGuests = this.NumberOfAdults + this.NumberOfChildren;
     }
